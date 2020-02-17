@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Temp/DocFx01/DocFx",
+  "source_base_path": "C:/_Disk_X/_Dev/CSharp/Github/DocFx-Demo/DocFx",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "Concepts/Abstract.html",
-          "hash": "Z+kVJC90D9LHMlIwLW88XQ=="
+          "hash": "r000hHyhnWlwJEM7CvIyPA=="
         }
       },
       "is_incremental": false,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "Concepts/Advanced/Abstract.html",
-          "hash": "AgTwU/AdybOMdW9gpVQoUw=="
+          "hash": "We2h1HB/CGSaA/fJiAqo5w=="
         }
       },
       "is_incremental": false,
@@ -33,10 +33,10 @@
       "output": {
         ".html": {
           "relative_path": "Concepts/Advanced/Advanced.html",
-          "hash": "M+1DxyFyC0IoN30xKc4sBQ=="
+          "hash": "JOlI5lVpymgbjvEsSf6kpg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "Concepts/Easy/Abstract.html",
-          "hash": "gJnZ5vZEKezlg8WktP40dA=="
+          "hash": "OYjOhBIWNcCRwp3jquzbtQ=="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "Concepts/Easy/Easy.html",
-          "hash": "E1EqeGu2vGm3c5JH1Z8ksQ=="
+          "hash": "GNLiXWHc/okDbqi/5grLeA=="
         }
       },
       "is_incremental": false,
@@ -84,10 +84,10 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "ROw5MdXOanZXk+/6os+svQ=="
+          "hash": "Lm8NTVlUZ4g/ycDzsv+Sdg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -96,10 +96,10 @@
       "output": {
         ".html": {
           "relative_path": "reference/Desktop.Form1.html",
-          "hash": "cs8WeftFqqED3EkHekbV6A=="
+          "hash": "RKip5+UHvsgVyGr8QOGMvA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -111,7 +111,7 @@
           "hash": "KCfTYo0+FVkAc08PeGksYA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -120,10 +120,10 @@
       "output": {
         ".html": {
           "relative_path": "reference/Lib.Class1.html",
-          "hash": "yYq5gFgLVBv5pvtujjz1Ag=="
+          "hash": "RBK9j1Ryb5tARP2Mdl31TA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -135,7 +135,7 @@
           "hash": "IZDJ/tmpOJ8Hv1Xdspk0/w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -166,10 +166,12 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
         "TocDocumentProcessor": {
@@ -180,23 +182,23 @@
           "skipped_file_count": 0
         },
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 6,
-          "skipped_file_count": 2
+          "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 4,
-          "skipped_file_count": 4
+          "skipped_file_count": 0
         }
       }
     },
     {
       "status": {
-        "can_incremental": true,
-        "details": "Can support incremental post processing.",
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
         "incrementalPhase": "postProcessing",
         "total_file_count": 0,
         "skipped_file_count": 0
