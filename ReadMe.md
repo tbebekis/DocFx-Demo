@@ -9,14 +9,15 @@
 * [The anatomy of the docfx.json configuration file](#the-anatomy-of-the-docfxjson-configuration-file)
 	* [The metadata section](#the-metadata-section)
 	* [The build section](#the-build-section)
+	* [The docs folder](#the-docs-folder)
 * [The filterConfig.yml file](#the-filterconfigyml-file)
 * [Conceptual documentation and the TOC (Table Of Content) files](#conceptual-documentation-and-the-toc-table-of-content-files)
 * [The .gitignore file](#the-gitignore-file)
 * [Generate the documentation site](#generate-the-documentation-site)
+* [Publish the generated documentation site to GitHub Pages](#publish-the-generated-documentation-site-to-github-pages)
 * [The PDF adventure](#the-pdf-adventure)
 
 <!-- End Document Outline -->
-
 
 ## Introduction
 
@@ -352,6 +353,18 @@ docfx --serve
 ```
 
 You may delete the generated folders, `reference` and `docs`. They are recreated in each build.
+
+## Publish the generated documentation site to GitHub Pages
+
+- `push` your local git repository to your github remote repository
+- in github repository go to `Settings` (it's far right with the gear icon)
+- scroll down to `GitHub Pages` section
+- select `master brach /docs folder` as Source
+- do **NOT** select theme
+
+That's all. Your documentation site will be available soon, if not immediately, at
+
+    `https://USER_NAME.github.io/PROJECT_NAME/`
 
 ## The PDF adventure
 
